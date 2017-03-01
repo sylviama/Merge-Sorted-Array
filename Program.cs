@@ -55,10 +55,8 @@ namespace Rextester
             {
                 while(i>-1 && j>-1)
                 {
-                    Console.WriteLine("Hi1");
                     if(nums1[i]>=nums2[j])
                     {
-                        Console.WriteLine("Hi2");
                         nums1[k]=nums1[i];
                         k--;
                         i--;
